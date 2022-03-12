@@ -1,0 +1,9 @@
+<Project>
+	<PropertyGroup>
+		<OutputPath>Build\bin</OutputPath>
+	</PropertyGroup>
+	<Target Name="AlwaysRun" AfterTargets="Build">
+		<Message Text="Running primary target" Importance="high" />
+		<MSBuild Projects="runOnce.proj" Targets="RunOnce"/>
+	</Target>	
+</Project>

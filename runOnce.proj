@@ -1,0 +1,5 @@
+<Project>
+<Target Name="RunOnce">
+<Message Text="(HELLO Am RunOnce Target) - $(OutputPath)" Importance="high" />
+</Target>
+</Project>
